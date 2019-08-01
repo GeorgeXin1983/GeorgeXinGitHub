@@ -17,8 +17,8 @@ public class Constants {
 	   // The game board and the game status
 	   public static final int ROWS = 3, COLS = 3; // number of rows and columns
 	   public static String[][] board = new String[ROWS][COLS]; // game board in 2D array,containing "O" and "X"
-	   public static int currentState;  // the current state of the game,including PLAYING, DRAW, PlayerA_WON, PlayerB_WON)
+	   public static int currentState=0;  // the current state of the game,including PLAYING, DRAW, PlayerA_WON, PlayerB_WON)
 	   public static String currentPlayer=""; // the current Player (A/B)
 	   public static Scanner in = new Scanner(System.in);
-	   public static int currntRow, currentCol;
+	   public static int currntRow, currentCol=0;
 }

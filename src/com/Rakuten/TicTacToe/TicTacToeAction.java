@@ -23,11 +23,11 @@ public class TicTacToeAction {
 		 int col=0;
 	      do {
 	         if (currentPlayer.equals(Constants.PlayerA)) {
-	            System.out.print("Player A, enter your move (row[1-3] column[1-3]),col and row is seperated by space:");
+	            System.out.print("Player A, enter your move (row[1-3] column[1-3]),col and row is separated by space:");
 	         } else 
 	        	 {
 	        	  if(Constants.MODE==0){
-	              System.out.print("Player B, enter your move (row[1-3] column[1-3]),col and row is seperated by space:");
+	              System.out.print("Player B, enter your move (row[1-3] column[1-3]),col and row is separated by space:");
 	              }//only man-man mode need to type the message
 	         }
 	         
