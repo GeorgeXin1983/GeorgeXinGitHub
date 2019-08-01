@@ -6,7 +6,7 @@ It can be run in JDK 1.7 version or up and it is made up of three classes:
 3.PlayTicTacToe.java: the main function is included in this file.
 
 This game supports two mode:man-man mode && man-computer mode
-How to Play£º
+How to Play
  1. Run playTicTacToe.At first ,select a mode(0 represents man-man mode and 1 represents 
  2. man-computer mode)
  3. The player should select one grid to fill and the row and column is separated by space
